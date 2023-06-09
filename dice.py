@@ -14,5 +14,5 @@ print("Die 2:",num2)
 sum = num1 + num2
 print("Total value:",sum)
 
-if(sum > 7): print("You won")
-else: print("You lost")
+if(sum > 7): print("%s won!" % name)
+else: print("%s lost" % name)
