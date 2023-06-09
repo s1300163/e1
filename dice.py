@@ -1,5 +1,9 @@
 import random
 
+print("What is your name?")
+name = input()
+print("Hello, %s!" % name)
+
 print("Rolling dice...")
 
 num1 = random.randint(1, 6)
